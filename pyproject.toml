@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hack-ai-submission"
+version = "0.1.0"
+description = "A agent that searches and checks for a given stock and provides data on it along with analysing whether to invest in the stock"
+authors = ["Jimmy Dogfish <102053596+JimmyDogfish@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9, <3.12"
+requests = "^2.31.0"
+uagents = "^0.9.2"
+pandas = "^2.1.4"
+alpha-vantage = "^2.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
