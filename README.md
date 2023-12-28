@@ -9,14 +9,17 @@ To run the program
   
 ``cd hack-ai-final``
 
-Change the blank API field in src/config.py
+Change the blank API field in src/agents/config.py
 
 ``poetry install``
 
 ``poetry shell``
 
-``python3 src/agents/agents/ml_agent.py``
+``python3 src/agents/ml_agent.py``
 
+Open another terminal/command prompt 
+
+``poetry shell``
 ``python3 src/agents/agents/main_agent.py``
 
 Then just follow steps and use it!
